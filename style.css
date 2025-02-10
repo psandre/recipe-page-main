@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: young serif, serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+
+.content {
+  background-color: hsl(0, 0%, 100%);
+  width: 900px;
+  /* height: ; */
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 50px;
+  margin-bottom: 200px;
+}
+
+@media (max-width:768px) {
+  .content{
+    width:95%;
+  }
+}
+
+
+.omeleteimg{
+  width: 800px;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px){
+  .omeleteimg{
+    width: 95%;
+  }
+}
+
+.header {
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: hsl(24, 5%, 18%);
+}
+
+@media (max-width: 768px){
+  .header{
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descricao1 {
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin: 40px 0;
+}
+
+@media (max-width: 768px){
+  .descricao1{
+  text-align: center;
+  }
+}
+
+
+.content2 {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.titulo {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0;
+  margin-left: 20px;
+}
+
+.lista li {
+  line-height: 2;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.lista li::before {
+  color: hsl(332, 51%, 32%);
+  content: "•";
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.lista3 {
+  margin-left: 30px;
+  line-height: 2;
+  margin: 20px;
+  list-style: none;
+}
+
+.lista3 li::before {
+  color: hsl(14, 45%, 36%);
+  content: "•";
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.listaNumerada {
+  margin-left: 30px;
+  line-height: 3;
+  /* font-size: ; */
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.descricaoNutrition {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.linha1 {
+  margin: 40px 0;
+  height: 0.2px;
+  background-color: hsl(30, 18%, 87%);
+}
+
+.linha2 {
+  margin: 15px 0;
+  height: 0.2px;
+  background-color: hsl(30, 18%, 87%);
+}
+.properties {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.property-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+@media (max-width: 768px){
+  .property-item{
+    width: 250px;
+  }
+}
+
+.propriedade {
+  font-weight: normal;
+  margin-left: 35px;
+}
+
+.colorValores {
+  color: hsl(14, 45%, 36%);
+   font-weight: bold;
+}
+
